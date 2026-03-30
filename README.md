@@ -1,32 +1,51 @@
 AI-Based Plagiarism Detection System
 
-📌 Overview
+Overview -
 
-This project is an AI-based system designed to detect plagiarism in textual data using Natural Language Processing (NLP) techniques.
+This project is an AI-powered plagiarism detection system that identifies similarity between textual documents using Natural Language Processing (NLP) techniques.
+It helps detect copied or paraphrased content by analyzing text patterns and computing similarity scores
 
 🚀 Features
 
-- Detects similarity between documents
-- Uses NLP preprocessing (tokenization, stopword removal)
-- Calculates similarity score between texts
-- Helps identify copied or paraphrased content
+Detects similarity between two text documents
+Uses NLP preprocessing (tokenization, stopword removal)
+Converts text into numerical vectors using TF-IDF
+Calculates similarity using cosine similarity
+Outputs plagiarism percentage
 
 🧠 Tech Stack
 
-- Python
-- NLP (NLTK / Scikit-learn)
-- Cosine Similarity / TF-IDF
+Python
+NLTK
+Scikit-learn
+TF-IDF Vectorizer
+Cosine Similarity
 
 ⚙️ How It Works
 
-1. Input two text documents
-2. Preprocess text using NLP techniques
-3. Convert text into vectors (TF-IDF)
-4. Compute similarity score
-5. Output plagiarism percentage
+Input two text documents
+Preprocess text (cleaning, tokenization, stopword removal)
+Convert text into vectors using TF-IDF
+Calculate cosine similarity
+Display similarity score (plagiarism %)
 
 ▶️ How to Run
 
-1. Clone the repo
-2. Install dependencies: "pip install -r requirements.txt"
-3. Run the script
+git clone https://github.com/harshitha-123854/Combat-Online-Plagiarism-with-AI
+cd Combat-Online-Plagiarism-with-AI
+pip install -r requirements.txt
+python main.py
+
+📊 Example Output
+
+Input 1: "Machine learning is a subset of AI"
+
+Input 2: "AI includes machine learning techniques"
+
+Output: Similarity Score → 78%
+
+🔥 Key Highlights
+
+Applied NLP techniques for real-world problem solving
+Implemented TF-IDF and cosine similarity for text comparison
+Designed efficient preprocessing pipeline
