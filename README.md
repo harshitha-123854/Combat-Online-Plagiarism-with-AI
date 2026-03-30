@@ -43,7 +43,7 @@ Input 1: "Machine learning is a subset of AI"
 Input 2: "AI includes machine learning techniques"
 
 Output: Similarity Score → 78%
-(Screenshot 2026-03-30 134317.png)
+![Output](Screenshot 2026-03-30 134317.png)
 
 🔥 Key Highlights
 
